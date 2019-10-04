@@ -1,0 +1,86 @@
+<!--
+    Author: ROUSHAN RAJ
+    Description: This is a very basic weather web application which uses local data
+    to display the weather of few popular cities which are being mentioned.
+    This application is made from very basic fundamental concepts of HTML,CSS and Javascript.
+    This is just for learning purpose
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEATHER APP</title>
+        <!--Linking of the CSS file-->
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <!--Meta data for search engines and browsers-->
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a weather application 
+        provides weather destails of cities based on user search">
+        <meta name="author" content="ROUSHAN RAJ">
+        <meta name="viewport" content="width = device-width, 
+        initial-Scale = 1.0">
+        
+    </head>
+
+
+    <body style="font-family: sans-serif"> 
+        
+        <div class="split left">
+            <div class="centered">
+            <h1 style="color:azure">Global Weather <span style="color: black">App</span></h1>
+            </div>
+        </div>
+
+        <!-- <div class="right-con">
+            <div class="header">
+                <div class="city-state">
+                    <div class="city-name"></div>
+                    <div class="state"></div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="weather-stats"></div>
+                <div class="tem"></div>
+            </div>
+            <div class="city-search">
+                <input type="text">
+                <button>Search</button>
+            </div>
+        </div> -->
+  
+        <div class="split right">
+                <div class="city" id="city">Bangalore,</div>
+                <div class="state"id="state">Karnataka</div>
+                <div class="day"id="day">Wednesday</div>
+                <div class="weather"id="weather">Cloudy</div>
+                <div class="icon" id="icon">☁️</div>
+                <div class="time" id="time">1:00</div>
+                <div class="temp" id="temp">26</div>
+                <div class="C" id="C" onclick="changeToCelsius()">&#8451;</div>
+                <div class="or" id="or">|</div>
+                <div class="F" id="F" onclick="changeToFarenheit()">&#8457;</div>
+                        
+                            <div class="inputDetails">
+                            <div class="placeholder">Enter city name</div>
+                                <div class="input">
+                                    <input id="in" type="text" name="city" placeholder="City name">
+                                    <button class="search" onclick="weatherBalloon()">search</button>
+                                    <!-- <datalist id="datalist"> 
+                                    <option value="Gr.Noida"></option> 
+                                    <option value="Bangalore" ></option> 
+                                    <option value="Jaipur" ></option>  
+                                    <option value="Mumbai"></option> 
+                                    <option value="Ranchi"></option> 
+                                    <option value="Gurgaon"></option> 
+                                    <option value="Patna"></option>       
+                                    </datalist> -->
+                                 </div>
+                             </div>
+                        </div>
+        </div>            
+
+<!--Linking of the Javascript File-->
+  <script src="script.js"></script> 
+</body>
+
+
+</html>

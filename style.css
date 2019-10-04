@@ -1,0 +1,139 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left sclasse */
+  .left {
+    left: 0;
+    background-color: rgb(15, 90, 160);
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: azure;
+  }
+  
+  /* For bringing the content in center horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .split .right .inputDetails
+{
+    font-family: sans-serif;
+    margin-top: -35%;
+}
+
+.placeholder{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: .8em;
+    font-family: sans-serif;
+}
+
+.input{
+    width: 75%;
+    height: 30px;
+    position: absolute;
+    top: 53%;
+    left: 30%;
+    font-size: 1em; 
+    color: #a8a8a8; 
+    margin-top : 2%;   
+
+}
+.city{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 24px;
+}
+/*.comma{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    font-size: 24px;
+}*/
+.state{
+    position: absolute;
+    top:10%;
+    left:50%;
+    font-size: 24px;
+}
+.day{
+    position: absolute;
+    top: 17%;
+    left: 30%;
+}
+.time{
+    position: absolute;
+    top: 17%;
+    left: 45%;
+}
+.meridian{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+}
+.temp{
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    font-size: 35px;
+}
+.C{
+    position: absolute;
+    top: 25%;
+    left:38%;
+    font-weight:bold;
+    cursor: pointer;
+}
+.or{
+    position: absolute;
+    top:25%;
+    left:42%
+}
+.F{
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    font-weight:bold;
+    cursor: pointer;
+}
+.weather{
+    position: absolute;
+    left:30%; 
+    top: 21%;
+}
+.icon{
+    position: absolute;
+    left:42%;
+    top: 20%;
+}
+.search{
+    border-radius: 15px;
+}
+
+
+/* .container {
+    width: 100px;
+}
+
+
+@media screen and ( width: 400px) {
+    .container {
+        width: 50px;
+    }
+} */
