@@ -73,33 +73,3 @@ function weatherBalloon( ) {
 
 
 // END 
-
-
-
-
-// Below is the code for trial and errors which I have gone through before the final code
-
-//function selectcity(val){
-    //   let city1=document.getElementById('in').value;
-      //let op =array.filter((v)=>v.city===city1);
-      //console.log(val);
-     // array.filter((arr)=>{
-        
-       // if(arr.city===value){
-
-  //}
-// let degree=document.getElementById('temp')
-
-// function celsiusToFarenheit(degree){
-
-//       let x = document.getElementById("temp").value * 9 / 5 + 32;
-//       document.getElementById("temp").value = Math.round(x);
-//       console.log(farenheit);
-//       document.getElementsByClassName("degree")[0].innerHTML = farenheit;
-//     } 
-
-// function farenheitToCelsius(degree){
-//        let x = (document.getElementById("temp").value -32) * 5 / 9;
-//       document.getElementById("temp").value = Math.round(x);
-//     }
-
